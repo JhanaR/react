@@ -1,0 +1,28 @@
+Functional component and Class component
+
+function Heva (){
+    return (
+        <>
+        <p>She is playing</p>
+        <p>Here hobby is playing</p>
+        </>
+    )
+}
+
+export default Heva;
+
+Class component: Mrthods and 
+
+import React, { Component } from 'react';
+
+class class extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+export default class;
