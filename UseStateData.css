@@ -1,0 +1,19 @@
+table {
+    text-align: center;
+    border: 5px solid rgb(13, 255, 0);
+    margin: 5px;
+    border-collapse: collapse;
+  }
+
+  td, tr {
+    text-align: center;
+    border: #d400ff 5px solid;
+  }
+  form {
+    margin:15px;
+    display:flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 25%;
+  }
