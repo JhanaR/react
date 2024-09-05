@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"/*_v*/views/*": "json"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "React"
+	}
+}

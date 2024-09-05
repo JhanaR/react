@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Full Name : 
+    <input type="text" id="t1" value="ajay kumar" onblur="onBlurFunction()"> <!-- AJAY KUMAR-->
+    <br/><br/>
+    Email :
+    <input type="email" id="t2" value="AJAYKUMAR@GMAIL.COM" onfocus="onFocusFunction()">
+    <script>
+        function onBlurFunction()
+        {
+            let personName = document.getElementById("t1").value;
+            document.getElementById("t1").value = personName.toUpperCase();
+            
+        }
+        function onFocusFunction()
+        {
+            let personEmail = document.getElementById("t2").value;
+            document.getElementById("t2").value = personEmail.toLowerCase();
+        }
+    </script>
+</body>
+</html>

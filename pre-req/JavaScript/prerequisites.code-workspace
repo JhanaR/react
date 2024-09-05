@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Intent Manager",
+			"uri": "im:/"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"/*_v*/views/*": "json"
+		},
+		"json.schemas": [
+			{
+				"fileMatch": [
+					"*.viewConfig"
+				],
+				"schema": false,
+				"url": "file:///c%3A/Users/jharajen/.vscode/extensions/nokia.nokia-intent-manager-3.1.0/media/viewconfig-schema.json"
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "prerequisites"
+	}
+}
