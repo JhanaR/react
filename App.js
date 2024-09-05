@@ -26,6 +26,7 @@ import './App.css';
 // import UseStateFormSingleFxn from './UseStateFormSingleFxn';
 // import UseStateFormDiffFxn from './UseStateFormDiffFxn';
 // import UseStateData from './UseStateData';
+import UseStateAuto from './UseStateAuto';
 // import SameColor from './SameColor';
 // import SameColorContainer from './SameColorContainer';
 // import ShowOff from './ShowOff';
@@ -33,7 +34,8 @@ import './App.css';
 // import UseEffectFetch from './UseEffectFetch';
 // import RouterForm from './RouterForm';
 // import StateStatelessManage from './StateStatelessManage';
-import UseRef from './UseRef';
+// import UseRef from './UseRef';
+// import UseEffectBasic from './UseEffectBasic';
 
 function App() {
     // let user = { name: "Heva",
@@ -71,25 +73,26 @@ function App() {
         <p>Para2</p>
         <p>Para3</p>
         </ChildProps> */}
+        {/* <UseStateCart/> */}
       {/* <ListAndKeys numbers = {[1,2,3,4,5]} /> */}
       {/* <ListAndKeyData /> */}
       {/* <ReactList /> */}
       {/* <UserLogin isLoggedIn={false}/> */}
       {/* <EventHandling /> */}
-      {/* <UseEffectDateTime /> 
-         <UseEffectWork />
-        <UseEffectData />
-        <Counter />
-        <SampleForm />*
-        <ReactRouterExample /> */}
+      {/* <UseEffectDateTime /> */}
+      {/* <UseEffectWork /> */}
+        {/* <UseEffectData /> */}
+        {/* <Counter /> */}
+        {/* <SampleForm /> */}
+        {/* <ReactRouterExample /> */}
       {/* <ReactUseStateHook /> 
-      {/* <UseStateCart/> */}
       {/* <UseStateFormDiffFxn /> */}
       {/* <UseStateFormSingleFxn /> */}
       {/* <UseStateData /> */}
+      <UseStateAuto />
       {/* <PropsDrilling/> */}
       {/* <UseContext /> */}
-      <UseRef/>
+      {/* <UseRef/> */}
       {/* <Component1 /> */}
       {/* <SameColor/> */}
       {/* <SameColorContainer/> */}
@@ -99,9 +102,10 @@ function App() {
       {/* <RouterForm /> */}
 
       {/* <BrowserRouter>
-     < RouterForm/>
-   </BrowserRouter> */}
+        < RouterForm/>
+      </BrowserRouter> */}
    {/* <StateStatelessManage /> */}
+   {/* <UseEffectBasic/> */}
     </div>
   );
 }
