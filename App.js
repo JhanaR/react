@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-// import Welcome from './Welcome';
+import Welcome from './Welcome';
 // import ClassComponents from './ClassComponents';
 // import FunctionalComponents from './FunctionalComponents';
 // import PropsBasic from './PropsBasic';
@@ -26,7 +26,7 @@ import './App.css';
 // import UseStateFormSingleFxn from './UseStateFormSingleFxn';
 // import UseStateFormDiffFxn from './UseStateFormDiffFxn';
 // import UseStateData from './UseStateData';
-import UseStateAuto from './UseStateAuto';
+// import UseStateAuto from './UseStateAuto';
 // import SameColor from './SameColor';
 // import SameColorContainer from './SameColorContainer';
 // import ShowOff from './ShowOff';
@@ -59,7 +59,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      {/* <Welcome/> */}
+      <Welcome/>
      {/* < ClassComponents  name="jhana" age ="35" school= "stjohns"/> */}
      {/* <FunctionalComponents name="jhana" age ="35" school= "stjohns" /> */}
       {/* <PropsBasic name ="Hevanika" age ={3}/> */}
@@ -89,7 +89,7 @@ function App() {
       {/* <UseStateFormDiffFxn /> */}
       {/* <UseStateFormSingleFxn /> */}
       {/* <UseStateData /> */}
-      <UseStateAuto />
+      {/* <UseStateAuto /> */}
       {/* <PropsDrilling/> */}
       {/* <UseContext /> */}
       {/* <UseRef/> */}
