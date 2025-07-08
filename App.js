@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Welcome from './Welcome';
+// import Welcome from './Welcome';
 // import ClassComponents from './ClassComponents';
-// import FunctionalComponents from './FunctionalComponents';
+import FunctionalComponents from './FunctionalComponents';
 // import PropsBasic from './PropsBasic';
 // import PropsMid from './PropsMid';
 // import ListAndKeyData from './ListAndKeyData';
@@ -59,9 +59,10 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Welcome/>
+      {/* <Welcome/> */}
      {/* < ClassComponents  name="jhana" age ="35" school= "stjohns"/> */}
-     {/* <FunctionalComponents name="jhana" age ="35" school= "stjohns" /> */}
+     <FunctionalComponents name="jhana" age ={33} school= "stjohns" />
+     <FunctionalComponents name="Karthik" school= "Thandalam" />
       {/* <PropsBasic name ="Hevanika" age ={3}/> */}
       {/* <PropsBasic name ="Hrithik"/>  */}
       {/* <PropsMid name = {user.name} email = {user.email} hobbies ={user.hobbies} />  */}

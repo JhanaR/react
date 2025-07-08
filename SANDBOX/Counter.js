@@ -5,17 +5,9 @@ function Counter() {
   return (
     <>
        <h1> Performing calculations:: {Count}</h1>
-       <button onClick = {() =>SetCount(Count+1) }> Adding
-      
-       </button>
-
-       <button onClick = {() =>SetCount(Count-1)}> Subtracting
-  
-        </button>
-
-        <button onClick = {() =>SetCount(Count*2)}>Multiplication
-  
-        </button>
+       <button onClick = {() =>SetCount(Count+1) }> Adding</button>
+       <button onClick = {() =>SetCount(Count-1)}> Subtracting</button>
+       <button onClick = {() =>SetCount(Count*2)}>Multiplication</button>
     </>
   );
 }
