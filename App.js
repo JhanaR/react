@@ -2,7 +2,7 @@
 import './App.css';
 // import Welcome from './Welcome';
 // import ClassComponents from './ClassComponents';
-import FunctionalComponents from './FunctionalComponents';
+// import FunctionalComponents from './FunctionalComponents';
 // import PropsBasic from './PropsBasic';
 // import PropsMid from './PropsMid';
 // import ListAndKeyData from './ListAndKeyData';
@@ -20,13 +20,16 @@ import FunctionalComponents from './FunctionalComponents';
 // import SampleForm from './SANDBOX/SampleForm';
 // import ReactUseStateHook from './ReactUseStateHook';
 // import UseStateCart from './UseStateCart';
-// import PropsDrilling from './PropsDrilling';
-// import UseContext from './UseContext';
-// import {Component1} from './PropsDrilling&UseContext/Component1';
-// import UseStateFormSingleFxn from './UseStateFormSingleFxn';
-// import UseStateFormDiffFxn from './UseStateFormDiffFxn';
 // import UseStateData from './UseStateData';
 // import UseStateAuto from './UseStateAuto';
+// import UseEffectBasic from './UseEffectBasic';
+// import UseRef from './UseRef';
+import { useMemo } from './UseMemo';
+// import UseContext from './UseContext';
+// import PropsDrilling from './PropsDrilling';
+// import UseStateFormSingleFxn from './UseStateFormSingleFxn';
+// import UseStateFormDiffFxn from './UseStateFormDiffFxn';
+// import {Component1} from './PropsDrilling&UseContext/Component1';
 // import SameColor from './SameColor';
 // import SameColorContainer from './SameColorContainer';
 // import ShowOff from './ShowOff';
@@ -34,8 +37,7 @@ import FunctionalComponents from './FunctionalComponents';
 // import UseEffectFetch from './UseEffectFetch';
 // import RouterForm from './RouterForm';
 // import StateStatelessManage from './StateStatelessManage';
-// import UseRef from './UseRef';
-// import UseEffectBasic from './UseEffectBasic';
+// import ToDoApp from './CODING/ToDoApp';
 
 function App() {
     // let user = { name: "Heva",
@@ -61,8 +63,8 @@ function App() {
       </header> */}
       {/* <Welcome/> */}
      {/* < ClassComponents  name="jhana" age ="35" school= "stjohns"/> */}
-     <FunctionalComponents name="jhana" age ={33} school= "stjohns" />
-     <FunctionalComponents name="Karthik" school= "Thandalam" />
+     {/* <FunctionalComponents name="jhana" age ={33} school= "stjohns" />
+     <FunctionalComponents name="Karthik" school= "Thandalam" /> */}
       {/* <PropsBasic name ="Hevanika" age ={3}/> */}
       {/* <PropsBasic name ="Hrithik"/>  */}
       {/* <PropsMid name = {user.name} email = {user.email} hobbies ={user.hobbies} />  */}
@@ -82,22 +84,25 @@ function App() {
       {/* <EventHandling /> */}
       {/* <UseEffectDateTime /> */}
       {/* <UseEffectWork /> */}
-        {/* <UseEffectData /> */}
-        {/* <Counter /> */}
-        {/* <SampleForm /> */}
-        {/* <ReactRouterExample /> */}
+      {/* <UseEffectData /> */}
+      {/* <Counter /> */}
+      {/* <SampleForm /> */}
+      {/* <ReactRouterExample /> */}
       {/* <ReactUseStateHook /> 
+       {/* <UseStateData /> */}
+      {/* <UseStateAuto /> */}
+      {/* <UseEffectFetch /> */}
+      {/* <UseRef/> */}
+      <useMemo/>
+      {/* <UseContext /> */}
+      {/* <PropsDrilling/> */}
       {/* <UseStateFormDiffFxn /> */}
       {/* <UseStateFormSingleFxn /> */}
-      {/* <UseStateData /> */}
-      {/* <UseStateAuto /> */}
-      {/* <PropsDrilling/> */}
-      {/* <UseContext /> */}
-      {/* <UseRef/> */}
+
       {/* <Component1 /> */}
       {/* <SameColor/> */}
       {/* <SameColorContainer/> */}
-      {/* <UseEffectFetch /> */}
+      
        {/* <ShowOff /> */}
       {/* <ErrorBoundary /> */}
       {/* <RouterForm /> */}
@@ -107,6 +112,7 @@ function App() {
       </BrowserRouter> */}
    {/* <StateStatelessManage /> */}
    {/* <UseEffectBasic/> */}
+   {/* <ToDoApp /> */}
     </div>
   );
 }
