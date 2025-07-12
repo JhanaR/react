@@ -16,7 +16,7 @@ import './App.css';
 // import UseEffectDateTime from './SANDBOX/UseEffectDateTime';
 // import UseEffectWork from './SANDBOX/UseEffectWork';
 // import ReactRouterExample from './SANDBOX/ReactRouterExample';
-// import Counter from './SANDBOX/Counter';
+import Counter from './SANDBOX/Counter';
 // import SampleForm from './SANDBOX/SampleForm';
 // import ReactUseStateHook from './ReactUseStateHook';
 // import UseStateCart from './UseStateCart';
@@ -24,7 +24,7 @@ import './App.css';
 // import UseStateAuto from './UseStateAuto';
 // import UseEffectBasic from './UseEffectBasic';
 // import UseRef from './UseRef';
-import { useMemo } from './UseMemo';
+// import { useMemo } from './UseMemo';
 // import UseContext from './UseContext';
 // import PropsDrilling from './PropsDrilling';
 // import UseStateFormSingleFxn from './UseStateFormSingleFxn';
@@ -38,6 +38,7 @@ import { useMemo } from './UseMemo';
 // import RouterForm from './RouterForm';
 // import StateStatelessManage from './StateStatelessManage';
 // import ToDoApp from './CODING/ToDoApp';
+// import Event from './Event';
 
 function App() {
     // let user = { name: "Heva",
@@ -85,15 +86,15 @@ function App() {
       {/* <UseEffectDateTime /> */}
       {/* <UseEffectWork /> */}
       {/* <UseEffectData /> */}
-      {/* <Counter /> */}
-      {/* <SampleForm /> */}
+      <Counter /> 
+      {/* <SampleForm />
       {/* <ReactRouterExample /> */}
       {/* <ReactUseStateHook /> 
        {/* <UseStateData /> */}
       {/* <UseStateAuto /> */}
       {/* <UseEffectFetch /> */}
       {/* <UseRef/> */}
-      <useMemo/>
+      {/* <useMemo/> */}
       {/* <UseContext /> */}
       {/* <PropsDrilling/> */}
       {/* <UseStateFormDiffFxn /> */}
@@ -113,6 +114,7 @@ function App() {
    {/* <StateStatelessManage /> */}
    {/* <UseEffectBasic/> */}
    {/* <ToDoApp /> */}
+   {/* <Event /> */}
     </div>
   );
 }
