@@ -1,15 +1,32 @@
 import {useState} from "react";
 
 function Event() {
-  const [text, setText] = useState('');
+  // const[type, setType] = useState('');
 
-return (
-    <>
-    <h1>{text}</h1>
-    <h2>{setText}</h2>
-    <input type="text" placeholder="Type here..." value={text} onChange={(e) => setText(e.target.value)}/>
-    <input type="text" placeholder="Mirrored text" value={text} readOnly />
-</>
-)
+  // return(
+  //   <>
+  //   <h1>type:{type}</h1>
+  //   <h1>setType:{setType}</h1>
+  //   <input type ="text" value={type} placeholder="type here" onChange={(e)=>setType(e.target.value)}/>
+  //   <input type ="text" value={type} placeholder="Mirror here" />
+  //   </>
+  // )
+  const [name, setName] = useState('');                                                                                                                                                                                           ");
+
+  function handleChange(e) {
+    setName(e.target.value);
+  }
+
+  return (
+    <div>
+      <h2>Welcome, {name || "Guest"}!</h2>
+      <input
+        type="text"
+        placeholder="Enter your name"
+        value={name}
+        onChange={handleChange}
+      />
+    </div>
+  )
 }
 export default Event;

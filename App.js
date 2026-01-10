@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 // import Welcome from './Welcome';
 // import ClassComponents from './ClassComponents';
 // import FunctionalComponents from './FunctionalComponents';
@@ -16,7 +16,7 @@ import './App.css';
 // import UseEffectDateTime from './SANDBOX/UseEffectDateTime';
 // import UseEffectWork from './SANDBOX/UseEffectWork';
 // import ReactRouterExample from './SANDBOX/ReactRouterExample';
-import Counter from './SANDBOX/Counter';
+// import Counter from './SANDBOX/Counter';
 // import SampleForm from './SANDBOX/SampleForm';
 // import ReactUseStateHook from './ReactUseStateHook';
 // import UseStateCart from './UseStateCart';
@@ -38,10 +38,17 @@ import Counter from './SANDBOX/Counter';
 // import RouterForm from './RouterForm';
 // import StateStatelessManage from './StateStatelessManage';
 // import ToDoApp from './CODING/ToDoApp';
+// import Counter from './CODING/Counter';
+// import React from "react";
+/*import { Routes, Route, Navigate } from "react-router-dom";
+import ProductList from "./TryCode/ProductList";
+import Navbar from "./TryCode/Navbar";
+import CartPage from "./TryCode/CartPage";
+import CheckoutPage from "./TryCode/CheckoutPage";*/
 // import Event from './Event';
 
 function App() {
-    // let user = { name: "Heva",
+  // let user = { name: "Heva",
   //              email: "heva@gmail.com",
   //              hobbies: "singing,collecting stamps"
   //             };
@@ -63,8 +70,8 @@ function App() {
         </a>
       </header> */}
       {/* <Welcome/> */}
-     {/* < ClassComponents  name="jhana" age ="35" school= "stjohns"/> */}
-     {/* <FunctionalComponents name="jhana" age ={33} school= "stjohns" />
+      {/* < ClassComponents  name="jhana" age ="35" school= "stjohns"/> */}
+      {/* <FunctionalComponents name="jhana" age ={33} school= "stjohns" />
      <FunctionalComponents name="Karthik" school= "Thandalam" /> */}
       {/* <PropsBasic name ="Hevanika" age ={3}/> */}
       {/* <PropsBasic name ="Hrithik"/>  */}
@@ -77,7 +84,7 @@ function App() {
         <p>Para2</p>
         <p>Para3</p>
         </ChildProps> */}
-        {/* <UseStateCart/> */}
+      {/* <UseStateCart/> */}
       {/* <ListAndKeys numbers = {[1,2,3,4,5]} /> */}
       {/* <ListAndKeyData /> */}
       {/* <ReactList /> */}
@@ -86,7 +93,7 @@ function App() {
       {/* <UseEffectDateTime /> */}
       {/* <UseEffectWork /> */}
       {/* <UseEffectData /> */}
-      <Counter /> 
+      {/* <Counter />  */}
       {/* <SampleForm />
       {/* <ReactRouterExample /> */}
       {/* <ReactUseStateHook /> 
@@ -103,19 +110,35 @@ function App() {
       {/* <Component1 /> */}
       {/* <SameColor/> */}
       {/* <SameColorContainer/> */}
-      
-       {/* <ShowOff /> */}
+
+      {/* <ShowOff /> */}
       {/* <ErrorBoundary /> */}
       {/* <RouterForm /> */}
 
       {/* <BrowserRouter>
         < RouterForm/>
       </BrowserRouter> */}
-   {/* <StateStatelessManage /> */}
-   {/* <UseEffectBasic/> */}
-   {/* <ToDoApp /> */}
-   {/* <Event /> */}
-    </div>
+      {/* <StateStatelessManage /> */}
+      {/* <UseEffectBasic/> */}
+      {/* <ToDoApp /> */}
+      {/* <Counter /> */}
+      {/* <Event /> */}
+      {/* <Navbar />
+   <ProductList />
+   <CartPage  />
+   <CheckoutPage  /> */}
+      {/* <div className="bg-gray-100 min-h-screen">
+        <Navbar />
+        <div className="container mx-auto pt-6">
+          <Routes>
+            <Route path="/" element={<Navigate to="/products" />} />
+            <Route path="/products" element={<ProductList />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/checkout" element={<CheckoutPage />} />
+          </Routes>
+        </div>
+      </div>*/}
+    </div> 
   );
 }
 
